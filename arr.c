@@ -3,7 +3,7 @@ int main()
 {
 int arr[100];
 int n,i,pos,num;
-printf("enter number of elents(<=100): ");
+printf("enter number of elments(<=100): ");
 scanf("%d",&n);
 printf("enter %d elements: \n",n);
 for(i=0;i<n;i++)
