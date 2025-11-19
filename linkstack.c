@@ -18,7 +18,7 @@ void pop() {
         printf("Stack is empty!\n");
     } else {
         printf("%d popped\n", top->data);
-        struct Node *temp = top;
+        struct Node *temp = top;aaAa
         top = top->next;
         free(temp);
     }
